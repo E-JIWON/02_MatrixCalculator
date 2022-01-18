@@ -1,0 +1,41 @@
+@import "./common.scss";
+
+.popup_wrap{
+    display: none;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10000;
+   
+    .popup_box{
+      cursor: pointer;
+
+      width: 40vw;
+      height: 10vw;
+      
+      color: $orange;
+      line-height: 10vw;
+      text-align: center;
+      font-family: $NewGul;
+      font-size: 1.7vw;
+      letter-spacing: -0.05vw;
+      word-spacing: 0.3vw;
+      
+
+      position: fixed;
+      top:15%;
+      left:50%;
+      margin-left: -20vw;
+      background-color: $white;
+      border-radius: 1vw;
+      -webkit-border-radius: 1vw;
+      -moz-border-radius: 1vw;
+      -ms-border-radius: 1vw;
+      -o-border-radius: 1vw;
+      
+      .popup_con span{
+      }
+    }
+}

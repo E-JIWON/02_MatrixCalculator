@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Wageul';
+    src: url('../ttf/210\ 와글와글B.ttf');
+}
+@font-face {
+    font-family: 'Richmango';
+    src: url('../ttf/210\ 리치망고B.ttf');
+}
+@font-face {
+    font-family: 'newgul';
+    src: url('../ttf/a뉴굴림2.ttf');
+}
+
+$Wageul : 'Wageul';
+$Mango : 'Richmango';
+$NewGul : 'newgul';
+
+// $white : #FFF6E7;
+// $orange : #98453D;
+// $green : #6964a7;
+// $green :#95c5d0;
+// $orange : #ef6d62;
+
+
+$white : #EEEEEE;
+$orange : #ec573b;
+$green : #7A91BF;;
+$yellow : #87996e;
+$brown : #4f3720;
+$black : #333333;
+
+
+
+// input number 버튼 지우는 방법
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+
+//인풋 박스 디자인
+input{
+    background-color: $white;
+    border: 2.5px solid $green;
+    color: $green;
+    font-family: $Mango;
+    text-align: center;
+}
+
+input:focus {
+    outline:none;
+}
+@mixin functionBtn {
+    font-family: $Mango;
+    width:100%;
+    height:6.5vw;
+    font-size: 3vw;
+    line-height: 2.9vw;
+    color:$green;
+    border: 0.5vw solid $green;
+    background-color: $white;
+}
+@mixin functionBtnHover {
+    cursor: pointer;
+    background-color: $white;
+    color: $orange;
+    border: 0.5vw solid $orange;
+    
+    text-shadow: none;
+    box-shadow: 4px 4px $black;
+    
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+@mixin bR05{
+    border-radius: 0.5vw;
+    -webkit-border-radius: 0.5vw;
+    -moz-border-radius: 0.5vw;
+    -ms-border-radius: 0.5vw;
+    -o-border-radius: 0.5vw;
+}

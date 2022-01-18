@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Wageul';
+  src: url("../ttf/210 와글와글B.ttf");
+}
+
+@font-face {
+  font-family: 'Richmango';
+  src: url("../ttf/210 리치망고B.ttf");
+}
+
+@font-face {
+  font-family: 'newgul';
+  src: url("../ttf/a뉴굴림2.ttf");
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input {
+  background-color: #EEEEEE;
+  border: 2.5px solid #7A91BF;
+  color: #7A91BF;
+  font-family: "Richmango";
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=common.css.map */
